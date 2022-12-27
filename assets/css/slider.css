@@ -1,0 +1,43 @@
+#wrap{
+	background-color: #ddd;
+	padding: 50px 0;
+  }
+  #slider{
+	width: 300px;
+	margin: 0 auto;
+	
+  }
+  button{
+	margin: 0;
+	padding: 0;
+	background: none;
+	border: none;
+	border-radius: 0;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+  }
+  .slide-arrow{
+	position: absolute;
+	top: 50%;
+	margin-top: -85px;
+  }
+  .prev-arrow{
+	left: -12px;
+	width: 0;
+	height: 0;
+	border-left: 0 solid transparent;
+	border-right: 17px solid #113463;
+	border-top: 14px solid transparent;
+	border-bottom: 14px solid transparent;
+  }
+  .next-arrow{
+	right: -11.5px;
+	width: 1;
+	height: 1;
+	border-right: 0 solid transparent;
+	border-left: 17px solid #113463;
+	border-top: 14px solid transparent;
+	border-bottom: 14px solid transparent;
+  }
