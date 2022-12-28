@@ -438,7 +438,7 @@ h6 {
 }
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 58px;
+  font-size: 64px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
@@ -446,7 +446,7 @@ h6 {
 #hero h2 {
   color: #eee;
   margin-bottom: 50px;
-  font-size: 24px;
+  font-size: 30px;
 }
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
@@ -877,6 +877,14 @@ section {
   padding-top: 2em;
   font-size: 17px;
   font-weight: 400;
+}
+.aboutSubImg {
+  height: 10px;;
+  width: 20%;
+
+  object-fit: cover;
+
+ 
 }
 @media (max-width: 768px) {
   .aboutSub {
