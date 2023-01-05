@@ -401,7 +401,7 @@ h6 {
   background-size: cover;
   position: relative;
   margin-bottom: -140px;
-  z-index: -1;
+
   background-position: top -94px right 00px;
   filter: contrast(135%);
   /* filter: brightness(150%) */
@@ -445,7 +445,7 @@ h6 {
 }
 #hero h2 {
   color: #eee;
-  margin-bottom: 50px;
+  
   font-size: 30px;
 }
 #hero .btn-get-started {
@@ -789,17 +789,21 @@ section {
   align-items: center;
   justify-content: center;
   text-align: justify;
-  padding-left: 8em;
-  padding-right: 11em;
+  
+  
   padding-top: 2em;
   font-size: 17px;
   font-weight: 400;
 }
 .aboutSubImg {
-  height: 10px;;
-  width: 20%;
+display: flex;
+align-items:flex-end;
+margin-top: 6em;
+margin-left: 2em;
+  width: 55%;
+  height: auto;
 
-  object-fit: cover;
+
 
  
 }
@@ -2321,26 +2325,26 @@ section {
   font-family: "Raleway", sans-serif;
   color: green;
 }
-#footerr .footer-top .social-links a {
+.social-links a {
   display: inline-block;
-  background: #0860a4;
+  background: #a9baba;
   color: #fff;
   line-height: 1;
-  margin-left: 0.6em;
+  /* margin-left: 0.6em; */
   border-radius: 50%;
   text-align: center;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   transition: 0.3s;
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
-#footerr .footer-top .social-links a i {
+.social-links a i {
   line-height: 0;
-  font-size: 16px;
+  font-size: 22px;
 }
-#footerr .footer-top .social-links a:hover {
+ .social-links a:hover {
   background: #0860a4;
   color: #fff;
   text-decoration: none;
